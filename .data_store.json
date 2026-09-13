@@ -1,0 +1,22 @@
+{
+  "profiles": [
+    {
+      "id": "74e85abb-0c33-4a5e-b4fd-50fd1cbd1c26",
+      "email": "user@hershield.safety",
+      "full_name": "Verified User",
+      "phone": "",
+      "custom_sos_message": "EMERGENCY: I need urgent assistance. My real-time location is shared via HerShield.",
+      "updated_at": "2026-09-11T17:08:03.506+00:00",
+      "emergency_pin_hash": "90d98ae68b98b53d5bcaec2ad30e374c:183d2442fcb980497f84ab93d8a64cb63c337d05f823e2ca0304da5997d7b25bb496d7e1d4f902dbb2115c70448beaf353cccdf55810abc959f97750c54ebd55"
+    },
+    {
+      "id": "378df269-e3be-40fc-9e7e-7f2c7bb3b110",
+      "email": "ranjanaayush48@gmail.com",
+      "full_name": "ayush",
+      "phone": "9636681396",
+      "custom_sos_message": "EMERGENCY: I need urgent assistance. Please help me",
+      "updated_at": "2026-09-11T17:09:50.622+00:00",
+      "emergency_pin_hash": "270c10908f5c7e30ce97ae1945091cc8:1fb5d9e56095ce946799c774447e0246249bad502c0ffa7a0174b0f71b545a77e6a085b0a21730cf1b44ce3fd642d387c4bc35d210ef6e6f56eb51765fc720f4"
+    }
+  ]
+}

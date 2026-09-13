@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+  </head>
+  <body>
+    <script type="module">
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js';
+      import { getAuth } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js';
+      try {
+        const app = initializeApp({});
+        const auth = getAuth(app);
+        console.log("Success");
+      } catch (e) {
+        console.error("Error", e);
+      }
+    </script>
+  </body>
+</html>

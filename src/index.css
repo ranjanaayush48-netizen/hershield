@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-primary: #0B1020;
+    --color-bg-secondary: #1A1028;
+    --color-accent-primary: #F43F6F;
+    --color-accent-emergency: #FF6B6B;
+    --color-accent-secondary: #A78BFA;
+    --color-highlight-soft: #FCE7F3;
+    --color-safe-success: #2DD4BF;
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #B8B5C9;
+    --color-border-brand: #30263D;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1020;
+}
+::-webkit-scrollbar-thumb {
+  background: #30263D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A78BFA;
+}
+
+/* Professional SOS & Active indicators - crisp and restrained */
+@keyframes sos-pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 63, 111, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(244, 63, 111, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(244, 63, 111, 0);
+  }
+}
+
+.sos-ring-animation {
+  animation: sos-pulse-ring 2s ease-out infinite;
+}
+
+@keyframes safe-pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(45, 212, 191, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(45, 212, 191, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(45, 212, 191, 0);
+  }
+}
+
+.safe-ring-animation {
+  animation: safe-pulse-ring 2.5s ease-out infinite;
+}

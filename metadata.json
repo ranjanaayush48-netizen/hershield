@@ -1,0 +1,6 @@
+{
+  "name": "HerShield - Women Safety & Personal Security",
+  "description": "A modern personal security platform empowering women with instant emergency SOS, trusted contacts, live location sharing, safe route scores, fake call escort, and verified emergency resources.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
