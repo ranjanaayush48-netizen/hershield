@@ -173,3 +173,17 @@ In an immediate emergency, contact the appropriate emergency service directly.
 This project is licensed under the MIT License.
 
 See the [LICENSE](LICENSE) file for details.
+## Copyright & Ownership
+
+© 2026 Ayush Ranjan. All Rights Reserved.
+
+HerShield is an independently developed personal safety platform.
+
+The source code, original UI/UX implementation, documentation,
+and original project assets are owned by Ayush Ranjan.
+
+No permission is granted to copy, reproduce, modify, redistribute,
+publish, or commercially use this project or substantial portions
+of its source code without prior written permission.
+
+HerShield is provided for demonstration and educational purposes.
