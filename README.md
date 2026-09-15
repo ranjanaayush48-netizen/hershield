@@ -168,10 +168,11 @@ HerShield is a personal safety application and should not be considered a replac
 
 In an immediate emergency, contact the appropriate emergency service directly.
 
-## License
+### License
 
-This project is licensed under the MIT License.
+This project is not licensed for redistribution or reuse.
 
+All rights reserved. See the Copyright & Ownership section below.
 See the [LICENSE](LICENSE) file for details.
 ## Copyright & Ownership
 
